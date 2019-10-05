@@ -1,0 +1,42 @@
+// Mission Header
+class Header
+{
+  gameType = Coop;
+  minPlayers = 1;
+  maxPlayers = 4;
+};
+
+class Params
+{
+    class EnemySkill
+    {
+		//paramsArray[0]
+        title = "Enemy Skill";
+        values[] = {0, 1, 2, 3, 4};
+        texts[] = {"Cadet", "Easy", "Normal", "Hard", "Extreme"};
+        default = 2;
+	};
+	class EnemyFrequency
+	{
+		// paramsArray[1]
+		title="Enemy Frequency";
+		values[]={1,2,3};
+		texts[]={"Few", "Some", "Many"};
+		default = 2;
+	};
+};
+
+onLoadName = "Night In July";
+onLoadMission = "Destroy the secret hardware!";
+//loadScreen = "loadScreen_ca.paa"; // Preview picture
+
+OnLoadMissionTime = FALSE;
+
+overviewText = "Destroy the secret hardware!";
+overviewTextLocked = "";
+//overviewPicture = "overviewPicture_ca.paa";
+author = "Engima";
+
+// description.ext settings for revive
+///////////////////////////////////////////////////////////////////////////////////////////
+//disabledAI = 1;

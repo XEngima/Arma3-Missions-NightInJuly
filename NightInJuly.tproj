@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectRootNode Name="NightInJuly" FileName="">
+    <SubNodes>
+      <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="Client" FileName="Client">
+        <SubNodes>
+          <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="DownloadIntelAction.sqf" FileName="Client\DownloadIntelAction.sqf">
+            <SubNodes />
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="InitClient.sqf" FileName="Client\InitClient.sqf">
+            <SubNodes />
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="RespawnFix.sqf" FileName="Client\RespawnFix.sqf">
+            <SubNodes />
+          </ProjectNodeViewModel>
+        </SubNodes>
+      </ProjectNodeViewModel>
+      <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="Common" FileName="Common">
+        <SubNodes>
+          <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="InitCommon.sqf" FileName="Common\InitCommon.sqf">
+            <SubNodes />
+          </ProjectNodeViewModel>
+        </SubNodes>
+      </ProjectNodeViewModel>
+      <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="Engima" FileName="Engima">
+        <SubNodes>
+          <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="CommonLib" FileName="Engima\CommonLib">
+            <SubNodes>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="CommonLib.sqf" FileName="Engima\CommonLib\CommonLib.sqf">
+                <SubNodes />
+              </ProjectNodeViewModel>
+            </SubNodes>
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="PatrolledAreas" FileName="Engima\PatrolledAreas">
+            <SubNodes>
+              <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="Server" FileName="Engima\PatrolledAreas\Server">
+                <SubNodes>
+                  <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="Functions.sqf" FileName="Engima\PatrolledAreas\Server\Functions.sqf">
+                    <SubNodes />
+                  </ProjectNodeViewModel>
+                </SubNodes>
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="ConfigAndStart.sqf" FileName="Engima\PatrolledAreas\ConfigAndStart.sqf">
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="HeadlessClient.sqf" FileName="Engima\PatrolledAreas\HeadlessClient.sqf">
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="Init.sqf" FileName="Engima\PatrolledAreas\Init.sqf">
+                <SubNodes />
+              </ProjectNodeViewModel>
+            </SubNodes>
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="SearchPatrol" FileName="Engima\SearchPatrol">
+            <SubNodes>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="SearchPatrol.sqf" FileName="Engima\SearchPatrol\SearchPatrol.sqf">
+                <SubNodes />
+              </ProjectNodeViewModel>
+            </SubNodes>
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="SimpleTasks" FileName="Engima\SimpleTasks">
+            <SubNodes>
+              <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="Common" FileName="Engima\SimpleTasks\Common">
+                <SubNodes>
+                  <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="EventHandlers.sqf" FileName="Engima\SimpleTasks\Common\EventHandlers.sqf">
+                    <SubNodes />
+                  </ProjectNodeViewModel>
+                  <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="Functions.sqf" FileName="Engima\SimpleTasks\Common\Functions.sqf">
+                    <SubNodes />
+                  </ProjectNodeViewModel>
+                  <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="UserFunctions.sqf" FileName="Engima\SimpleTasks\Common\UserFunctions.sqf">
+                    <SubNodes />
+                  </ProjectNodeViewModel>
+                </SubNodes>
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="Server" FileName="Engima\SimpleTasks\Server">
+                <SubNodes>
+                  <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="EventHandlers.sqf" FileName="Engima\SimpleTasks\Server\EventHandlers.sqf">
+                    <SubNodes />
+                  </ProjectNodeViewModel>
+                  <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="Functions.sqf" FileName="Engima\SimpleTasks\Server\Functions.sqf">
+                    <SubNodes />
+                  </ProjectNodeViewModel>
+                </SubNodes>
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="Documentation.sqf" FileName="Engima\SimpleTasks\Documentation.sqf">
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="Init.sqf" FileName="Engima\SimpleTasks\Init.sqf">
+                <SubNodes />
+              </ProjectNodeViewModel>
+            </SubNodes>
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="Traffic" FileName="Engima\Traffic">
+            <SubNodes>
+              <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="Common" FileName="Engima\Traffic\Common">
+                <SubNodes>
+                  <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="Common.sqf" FileName="Engima\Traffic\Common\Common.sqf">
+                    <SubNodes />
+                  </ProjectNodeViewModel>
+                  <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="Debug.sqf" FileName="Engima\Traffic\Common\Debug.sqf">
+                    <SubNodes />
+                  </ProjectNodeViewModel>
+                </SubNodes>
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="Server" FileName="Engima\Traffic\Server">
+                <SubNodes>
+                  <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="Functions.sqf" FileName="Engima\Traffic\Server\Functions.sqf">
+                    <SubNodes />
+                  </ProjectNodeViewModel>
+                  <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="MoveVehicle.sqf" FileName="Engima\Traffic\Server\MoveVehicle.sqf">
+                    <SubNodes />
+                  </ProjectNodeViewModel>
+                  <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="StartTraffic.sqf" FileName="Engima\Traffic\Server\StartTraffic.sqf">
+                    <SubNodes />
+                  </ProjectNodeViewModel>
+                </SubNodes>
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="ConfigAndStart.sqf" FileName="Engima\Traffic\ConfigAndStart.sqf">
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="HeadlessClient.sqf" FileName="Engima\Traffic\HeadlessClient.sqf">
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="Init.sqf" FileName="Engima\Traffic\Init.sqf">
+                <SubNodes />
+              </ProjectNodeViewModel>
+            </SubNodes>
+          </ProjectNodeViewModel>
+        </SubNodes>
+      </ProjectNodeViewModel>
+      <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="Server" FileName="Server">
+        <SubNodes>
+          <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="Functions.sqf" FileName="Server\Functions.sqf">
+            <SubNodes />
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="InitServer.sqf" FileName="Server\InitServer.sqf">
+            <SubNodes />
+          </ProjectNodeViewModel>
+        </SubNodes>
+      </ProjectNodeViewModel>
+      <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="Ascom.sqf" FileName="Ascom.sqf">
+        <SubNodes />
+      </ProjectNodeViewModel>
+      <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="Briefing.sqf" FileName="Briefing.sqf">
+        <SubNodes />
+      </ProjectNodeViewModel>
+      <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="description.ext" FileName="description.ext">
+        <SubNodes />
+      </ProjectNodeViewModel>
+      <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="init.sqf" FileName="init.sqf">
+        <SubNodes />
+      </ProjectNodeViewModel>
+      <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="MissionProcessor.sqf" FileName="MissionProcessor.sqf">
+        <SubNodes />
+      </ProjectNodeViewModel>
+      <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="MissionTasks.sqf" FileName="MissionTasks.sqf">
+        <SubNodes />
+      </ProjectNodeViewModel>
+    </SubNodes>
+  </ProjectRootNode>
+  <FilteredAnalyzerResultItems>
+    <string>Public variable 'ENGIMA_TRAFFIC_StartTraffic' may be used before being assigned a value.</string>
+    <string>Public variable 'p1' may be used before being assigned a value.</string>
+    <string>Public variable 'p2' may be used before being assigned a value.</string>
+    <string>Public variable 'p3' may be used before being assigned a value.</string>
+    <string>Public variable 'p4' may be used before being assigned a value.</string>
+    <string>Public variable 'ENG_assaultBoat' may be used before being assigned a value.</string>
+    <string>Public variable 'ENG_enemyTempest1' may be used before being assigned a value.</string>
+    <string>Public variable 'ENG_opforChopper' may be used before being assigned a value.</string>
+    <string>Public variable 'BIS_fnc_worldArea' may be used before being assigned a value.</string>
+    <string>Public variable 'BIS_fnc_spawnVehicle' may be used before being assigned a value.</string>
+    <string>Public variable 'ENG_mothership' may be used before being assigned a value.</string>
+    <string>Public variable 'ENGTASKS_SetTaskState' may be used before being assigned a value.</string>
+    <string>Public variable 'ENG_laptop1' may be used before being assigned a value.</string>
+    <string>Public variable 'ENG_laptop2' may be used before being assigned a value.</string>
+    <string>Public variable 'ENG_laptop3' may be used before being assigned a value.</string>
+    <string>Public variable 'p5' may be used before being assigned a value.</string>
+    <string>Public variable 'ENGIMA_DEBUG' may be used before being assigned a value.</string>
+    <string>Public variable 'dre_fnc_CL_InitParams' may be used before being assigned a value.</string>
+    <string>Public variable 'ENG_laptopToKeep' may be used before being assigned a value.</string>
+    <string>Public variable 'ENG_GetPlayableUnits' may be used before being assigned a value.</string>
+    <string>Public variable 'dre_OnSatchelPlacedServer' may be used before being assigned a value.</string>
+  </FilteredAnalyzerResultItems>
+</Project>
